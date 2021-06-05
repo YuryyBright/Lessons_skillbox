@@ -6,6 +6,7 @@ import numpy as np
 
 
 def task_1():
+    print(" TASK 1")
     # Есть значение радиуса круга
     radius = 42
 

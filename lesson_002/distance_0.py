@@ -25,6 +25,6 @@ def task_1():
                 continue
             value =  sqrt((sites[counter][0] - sites[key][0])**2 + (sites[counter][1] + sites[key][1])**2)
             distances.update({counter+' '+key : value})
-    print(" TASK 1")
+    print(" TASK 0")
     for countries in distances:
         print(countries+'\t:', distances[countries], end=' \n')

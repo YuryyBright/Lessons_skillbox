@@ -15,6 +15,9 @@ violator_songs_list = [
     ['Clean', 5.83],
 ]
 
+
+
+
 # распечатайте общее время звучания трех песен: 'Halo', 'Enjoy the Silence' и 'Clean' в формате
 #   Три песни звучат ХХХ минут
 # Обратите внимание, что делать много вычислений внутри print() - плохой стиль.
@@ -39,3 +42,27 @@ violator_songs_dict = {
 #   А другие три песни звучат ХХХ минут
 
 # TODO здесь ваш код
+def task_7():
+    print("TASK 7")
+    time_1 = 0
+    time_other_1 = 0
+    for song, time in violator_songs_list:
+        if song == 'Halo' or song =='Enjoy the Silence' or song == 'Clean':
+            time_1+=time
+        else:
+            time_other_1 += time
+
+    print('All time_1 =', time_1)
+    print('All time other_1 =', time_other_1)
+
+    time_2 = 0
+    time_other_2 = 0
+    for key in violator_songs_dict:
+
+        if key == 'Sweetest Perfection' or song == 'Policy of Truth' or song == 'Blue Dress':
+            time_2 += violator_songs_dict[key]
+        else:
+            time_other_2 += violator_songs_dict[key]
+    print('All time_2 =', time_2)
+    print('All time other_2 =', time_other_2)
+

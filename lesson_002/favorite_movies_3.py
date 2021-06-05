@@ -15,3 +15,14 @@ my_favorite_movies = 'Терминатор, Пятый элемент, Ават�
 # Запятая не должна выводиться.
 
 # TODO здесь ваш код
+def task_3():
+    print(" TASK 3")
+    print('string = ', my_favorite_movies)
+    print('первый фильм')
+    print(my_favorite_movies[0:10])
+    print('последний фильм')
+    print(my_favorite_movies[-15:])
+    print('второй')
+    print(my_favorite_movies[12:25])
+    print('второй с конца')
+    print(my_favorite_movies[-22:-17])

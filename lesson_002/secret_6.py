@@ -22,3 +22,14 @@ secret_message = [
 # Если нужны вычисления и разные пробы - делайте это в консоли пайтона, тут нужен только результат
 
 # TODO вывести расшифрованное сообщение
+def task_6():
+    print(" TASK_6")
+    my_message = secret_message[0][3]+' '
+    my_message += secret_message[1][9:13] + ' '
+    my_message += secret_message[2][5:15:2]+' '
+    my_message += secret_message[3][12:6:-1]+ ' '
+    my_message += secret_message[4][20:15:-1]+ ' '
+    print(my_message)
+    # h e l l 0
+    # 0 1 2 3 4
+    #-5-4-3-2-1

@@ -23,3 +23,27 @@ birds = ['rooster', 'ostrich', 'lark', ]
 # TODO здесь ваш код
 
 
+def task_5():
+    print("TASK 5")
+    print('''
+# посадите медведя (bear) между львом и кенгуру
+#  и выведите список на консоль
+    ''')
+    zoo.insert(1,'bear')
+    print(zoo)
+    print('''
+# добавьте птиц из списка birds в последние клетки зоопарка  
+    ''')
+    zoo.extend(birds)
+    print(zoo)
+    print('''
+# уберите слона
+#  и выведите список на консоль
+    ''')
+    zoo.remove('elephant')
+    print(zoo)
+    print('''
+# выведите на консоль в какой клетке сидит лев (lion) и жаворонок (lark).
+# Номера при выводе должны быть понятны простому человеку, не программисту.
+    ''')
+    print(' лев (lion) ', zoo.index('lion'),'\n жаворонок (lark) ', zoo.index('lark'))
